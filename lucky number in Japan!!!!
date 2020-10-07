@@ -1,0 +1,5 @@
+function luckyNumber(a, b){
+if ( a === 8 || a === 3 || a === 5 || a === 7 || b === 8 || b === 3 || b === 5 || b === 7 ){
+return true;
+}else return false;
+}
