@@ -1,0 +1,5 @@
+function isGoodNumber(num){
+if (num !== 39){
+return "The number of suitable";
+}else return "The number is unsuccessful";
+}
