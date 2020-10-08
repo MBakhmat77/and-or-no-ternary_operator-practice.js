@@ -1,0 +1,16 @@
+function floorNumber(floor, amount){
+if (floor > amount){
+   return false;
+ }
+
+ if (amount < 4  && floor < anount){
+ return true;
+ }else if (amount === 4  && floor === 4){
+ return false;
+ }else if ( amount === 4 && floor <= amount + 1){
+ return false;
+ }else if (amount > 4  && floor <= amount + 1){
+ return true;
+
+ }
+}
