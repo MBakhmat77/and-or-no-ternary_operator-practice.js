@@ -1,0 +1,3 @@
+function scoreIncrease(current, level){
+return ( level === 'easy' )? current = current + 2  : (level === 'medium' ) ? current = current + 4 : ( level === 'hard') ? current = current + 8 : current;
+}
