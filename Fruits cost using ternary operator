@@ -1,0 +1,13 @@
+function saleFruits(n){
+let total ;
+let a = 1;
+let b = 2;
+let c = n * 0.8
+let d = n * 0.6;
+
+if (n === 0) return "0.00";
+return ( n === 1)? a.toFixed(2):(n === 2)? b.toFixed(2) :(n >= 3 && n < 10)? c.toFixed(2):(n >= 10 )? d.toFixed(2):0; 
+
+ total = String(total);
+ return total;
+}
