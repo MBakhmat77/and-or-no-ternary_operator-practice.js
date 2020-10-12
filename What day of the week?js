@@ -1,0 +1,13 @@
+function dayOfWeek(k){
+let dayofWeek;
+  
+
+if( k % 7 === 1) return dayofWeek = 'Monday';
+  else if (k % 7 === 2) return dayofWeek = 'Tuesday';
+  else if (k % 7 === 3) return dayofWeek = 'Wednesday';
+  else if ( k % 7 === 4)return dayofWeek = 'Thursday';
+  else if ( k % 7 === 5) return dayofWeek = 'Friday';
+   else if ( k % 7 === 6) return dayofWeek = 'Saturday';
+  else if ( k % 7 === 0) return dayofWeek = 'Sunday';
+return dayofWeek;
+}
